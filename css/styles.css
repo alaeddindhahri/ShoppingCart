@@ -1,0 +1,121 @@
+
+div{
+    box-sizing: border-box;
+}
+
+.navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.item-pricing{
+    flex-grow: 1;
+}
+.dropdown{
+    margin-right: 3%;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-right: 4%;
+}
+.carousel-inner img{
+    max-height: 900px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: black;
+    padding: 10%;
+    border-radius: 10%;
+}
+
+.cart-bar{
+    background-color: cadetblue;
+    /* border:solid; */
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.cart-logo{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    min-width: 25px;
+}
+.cart-bar p{
+    /* border: dashed; */
+    font-weight: 600;
+    font-size: 30px;
+}
+.cart-bar span{
+    font-weight: 700;
+    /* color:white; */
+}
+.shopping-container{
+    /* border: solid red; */
+    margin: 1% 10%;
+    background-color:#ebebeb;
+    box-sizing: content-box;
+}
+.delete-favorite-icon img{
+    width: 100%;
+    height: auto;
+    max-width: 80%;
+    /* padding: 0% 20%; */
+    /* border: solid; */
+    object-fit: fill;
+    /* box-sizing: border-box; */
+    opacity: .5;
+}
+.delete-img:hover{
+    opacity: .8;
+}
+.favorite-img:hover{
+    opacity: .8;
+}
+
+.product-image img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 10%;
+    /* border: solid; */
+}
+.add-delete-quantity img{
+    height: auto;
+    width: 25%;
+    /* border: solid; */
+    object-fit: fill;
+    min-width: 25px;
+    /* box-sizing: border-box; */
+}
+.add-delete-quantity{
+    display: flex;
+    justify-content: center;
+}
+.quantity li{
+    /* border: solid; */
+    display: inline;
+}
+.cart-element{
+    margin:1%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* border: solid green; */
+}
+.cart-element div{
+    /* border: 4px dashed red; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    /* box-sizing: border-box; */
+    /* font-weight: 600; */
+}
+.product-price, .product-quantity{
+    font-weight: 600;
+    padding: 0% 5%;
+    /* font-size: 2rem; */
+}
